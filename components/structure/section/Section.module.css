@@ -1,0 +1,8 @@
+.section {
+    height: 768px; width: 100vw;
+    overflow: hidden;
+}
+
+.black{
+    background-color: #080F0F;
+}

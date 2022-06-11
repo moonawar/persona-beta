@@ -1,0 +1,9 @@
+.nameContainer{
+    color: #F7F4F3;
+    width: 300px;
+    height: 36px;
+    background-color: #BA1B1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

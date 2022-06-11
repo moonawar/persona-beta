@@ -1,9 +1,12 @@
 import Section from "../components/structure/section/Section";
+import Layout from "../components/structure/Layout";
 
 const LandingPage = () => {
-  // return <Section style="black">
-    
-  // </Section>
+  return (
+    <Layout>
+      <Section style="black"></Section>
+    </Layout>
+  );
 };
 
 export default LandingPage;

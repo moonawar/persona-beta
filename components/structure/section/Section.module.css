@@ -1,8 +1,14 @@
 .section {
-    height: 768px; width: 100%;
-    overflow: hidden;
-}
+    height: 100vh; width: 100%;
+    position: relative;
+}   
 
 .black{
     background-color: #080F0F;
+}
+
+@media only screen and (max-height: 615px){
+    .section {
+        height: 615px;
+    }
 }

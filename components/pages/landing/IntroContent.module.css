@@ -4,8 +4,7 @@
     width: 100%; height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 7.5%;
+    justify-content: center;
     align-items: center;
     color: #F7F4F3;
 }
@@ -17,16 +16,98 @@
 }
 .introRole{
     margin: 0;
-    width: 60%;
-    font-size: 20px;
+    width: 52%;
+    font-size: 22px;
     text-align: center;
     font-style: italic;
 }
 
 @media only screen and (max-height: 768px){
     .introContent {
-        position: absolute;
-        bottom: 0;
-        height: 615px;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .introName{
+        font-size: 40px;
+    }
+
+    .introRole{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .introName{
+        font-size: 32px;
+    }
+
+    .introRole{
+        width: 75%;
+    }
+
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 1000px) and (max-width: 900px){
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 1200px){
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 1200px){
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 750px) and (min-width: 1350px){
+    .introName{
+        font-size: 65px;
+    }
+
+    .introRole{
+        font-size: 28px;
+    }
+
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 1500px) and (min-width: 820px){
+    .introName{
+        font-size: 65px;
+    }
+
+    .introRole{
+        font-size: 30px;
+    }
+
+    .introContent{
+        height: 100%;
+    }
+}
+
+@media only screen and (min-height: 1000px) and (min-width: 1900px){
+    .introName{
+        font-size: 75px;
+    }
+
+    .introRole{
+        font-size: 32px;
+    }
+
+    .introContent{
+        height: 100%;
     }
 }

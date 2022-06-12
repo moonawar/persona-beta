@@ -24,9 +24,9 @@ const NavBar = () => {
             </div>
     }
 
-    return <nav className={styles.navbar}>
+    return <div className={styles.navbar}>
         {navItems}
-    </nav>
+    </div>
 }
 
 export default NavBar;

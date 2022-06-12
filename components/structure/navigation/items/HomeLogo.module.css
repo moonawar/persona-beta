@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.logoName{
+    font-size: 28px;
+}
+
 @media only screen and (max-width: 480px){
     .nameContainer{
         width: 210px;
@@ -15,5 +19,15 @@
     }
     .logoName{
         font-size: 20px;
+    }
+}
+
+@media only screen and (min-height: 1000px) and (min-width: 1900px){
+    .nameContainer{
+        width: 400px;
+        height: 48px;
+    }
+    .logoName{
+        font-size: 36px;
     }
 }

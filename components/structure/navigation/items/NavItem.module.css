@@ -7,3 +7,15 @@
     color: #AEAEAE;
     transition: 0.2s;
 }
+
+@media only screen and (min-height: 720px) and (min-width: 1320px){
+    .navItem{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-height: 1000px) and (min-width: 1900px){
+    .navItem{
+        font-size: 32px;
+    }
+}

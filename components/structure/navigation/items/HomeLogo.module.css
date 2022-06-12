@@ -7,3 +7,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 480px){
+    .nameContainer{
+        width: 210px;
+        height: 30px;
+    }
+    .logoName{
+        font-size: 20px;
+    }
+}

@@ -12,7 +12,14 @@
     background-color: #080F0F;
 }
 
-.nav-open{
+.nav{
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .nav-open{
     width: 85vw;
     display: flex;
     justify-content: space-around;
@@ -25,6 +32,16 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+} */
+
+@media only screen and (max-width: 740px){
+    .nav{
+        width: 75vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
 }
 
 @media only screen and (max-width: 480px){

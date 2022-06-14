@@ -3,10 +3,12 @@
     position: relative;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }   
 
 .black{
     background-color: #080F0F;
+    color: #F7F4F3;
 }
 
 @media only screen and (max-height: 600px) and (min-width: 400px){

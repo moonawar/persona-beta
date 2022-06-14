@@ -8,6 +8,12 @@
     transition: 0.2s;
 }
 
+@media only screen and (max-width: 740px){
+    .navItem{
+        display: none;
+    }
+}
+
 @media only screen and (min-height: 720px) and (min-width: 1320px){
     .navItem{
         font-size: 26px;

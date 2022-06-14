@@ -1,0 +1,16 @@
+.project-container{
+    width: 280px; height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project{
+    min-width: 280px; min-height: 160px;
+    background-color: #BA1B1D;
+}
+
+.projectLink{
+    font-size: 12px;
+    padding: 5px 0;
+}

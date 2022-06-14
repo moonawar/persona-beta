@@ -1,16 +1,18 @@
-import Section from "../components/structure/section/Section";
+import SectionFixed from "../components/structure/section/SectionFixed";
 import Layout from "../components/structure/Layout";
 import IntroContent from "../components/pages/landing/IntroContent";
+import SectionFlex from "../components/structure/section/SectionFlex";
+import ProjectBody from "../components/pages/landing/ProjectBody";
 
 const LandingPage = () => {
   return (
     <Layout>
-      <Section style="black">
+      <SectionFixed style="black">
         <IntroContent/>
-      </Section>
-      <Section>
-        
-      </Section>
+      </SectionFixed>
+      <SectionFlex style="black">
+        <ProjectBody/>
+      </SectionFlex>
     </Layout>
   );
 };

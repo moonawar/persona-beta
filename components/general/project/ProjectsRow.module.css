@@ -1,0 +1,23 @@
+.projectsRow{
+    overflow: hidden;
+    cursor: grab;
+}
+
+.projectsRowInner{
+    max-width: calc((100vw - 200px)*0.8);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* @media only screen and (max-width: 1366px){
+    .projectsRow{
+        width: 960px;
+    }
+} */
+@media only screen and (min-width: 902px){
+    .projectsRowInner{
+        max-width: 70vw;
+    }
+}
+

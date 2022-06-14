@@ -1,0 +1,9 @@
+.section {
+    width: 100%;
+    overflow: hidden;
+}   
+
+.black{
+    background-color: #080F0F;
+    color: #F7F4F3;
+}

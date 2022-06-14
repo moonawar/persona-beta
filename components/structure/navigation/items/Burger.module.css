@@ -1,3 +1,13 @@
+.burger{
+    display: block;
+}
+
 .burger:hover{
     cursor: pointer;
+}
+
+@media only screen and (min-width: 740px){
+    .burger{
+        display: none;
+    }
 }

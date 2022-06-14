@@ -1,0 +1,32 @@
+.projectBody{
+    display: flex;
+}
+
+.filteringSide{
+    width: 30vw;
+    min-height: 600px; min-width: 200px;
+    height: 100%;
+    background-color: #BA1B1D;
+}
+
+
+/* .projectList{
+
+} */
+
+.projectList h1{
+    margin: 0;
+}
+
+.projectsSide{
+    padding: 0 30px;
+}
+
+
+/* .finishedProject{
+    
+}
+
+.ongoingProject{
+
+} */

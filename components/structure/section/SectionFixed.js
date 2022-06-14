@@ -1,9 +1,9 @@
-import styles from './Section.module.css'
+import styles from './SectionFixed.module.css'
 
-const Section = (props) => {
+const SectionFixed = (props) => {
     return <section className={`${styles.section} ${styles[`${props.style}`]}`}>
         {props.children}
     </section>
 }
 
-export default Section;
+export default SectionFixed;

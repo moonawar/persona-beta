@@ -8,6 +8,22 @@
     display: flex;
     align-items: center;
     gap: 25px;
+    white-space: nowrap;
+}
+
+.projectsRowInner p{
+    margin: 0 0 0 -40px; padding: 0;
+
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+.seeMore{
+    cursor: pointer;
+    width: 60px; height: 135px;
 }
 
 /* @media only screen and (max-width: 1366px){
@@ -17,7 +33,7 @@
 } */
 @media only screen and (min-width: 902px){
     .projectsRowInner{
-        max-width: 70vw;
+        max-width: 65vw;
     }
 }
 

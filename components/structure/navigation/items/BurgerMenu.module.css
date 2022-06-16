@@ -1,0 +1,7 @@
+.burgerMenu{
+    width: 300px; height: 100vh;
+    position: fixed;
+    right: 0; top: 0; bottom: 0; 
+    z-index: 20;
+    background-color: #080F0F;
+}

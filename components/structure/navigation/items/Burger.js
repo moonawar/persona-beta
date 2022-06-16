@@ -2,6 +2,9 @@ import styles from "./Burger.module.css";
 import Image from "next/image";
 import burgerImg from "../../../../public/burger.png";
 import useWindowDimensions from "../../../hooks/useWindowDimensions";
+import Portal from "../../../hooks/Portal";
+import Backdrop from "../../../general/UI/Backdrop";
+import BurgerMenu from "./BurgerMenu";
 
 const Burger = (second) => {
     const {height, width} = useWindowDimensions();
@@ -15,6 +18,10 @@ const Burger = (second) => {
         width={size}
         height={size}
       />
+      {/* <Portal>
+        <Backdrop/>
+        <BurgerMenu/>
+      </Portal> */}
     </div>
   );
 };

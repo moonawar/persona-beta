@@ -1,13 +1,27 @@
 .burger{
     display: block;
+    width: 24px; height: 24px;
+}
+
+.always{
+    display: block;
+}
+
+.responsive{
+    display: block;
 }
 
 .burger:hover{
     cursor: pointer;
 }
 
-@media only screen and (min-width: 740px){
+@media only screen and (max-width: 480px){
     .burger{
+        width: 20px; height: 20px;
+    }
+}
+@media only screen and (min-width: 740px){
+    .responsive{
         display: none;
     }
 }

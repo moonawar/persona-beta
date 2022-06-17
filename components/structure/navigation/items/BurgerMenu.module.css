@@ -1,7 +1,46 @@
 .burgerMenu{
-    width: 300px; height: 100vh;
+    width: 250px; height: 100vh;
     position: fixed;
     right: 0; top: 0; bottom: 0; 
     z-index: 20;
     background-color: #080F0F;
+    padding-right: 9vw;
+}
+
+.open{
+    transform: translateX(0);
+    transition: 0.2s;
+}
+
+.close{
+    transform: translateX(100%);
+    transition: 0.2s;
+}
+
+.burgerMenu-burger{
+    width: 100%;
+    height: 80px;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.burgerMenu-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 480px){
+    .burgerMenu-burger{
+        height: 60px;
+    }
+}
+
+@media only screen and (min-height: 720px) and (min-width: 1500px){
+    .burgerMenu-burger{
+        height: 140px;
+    }
 }

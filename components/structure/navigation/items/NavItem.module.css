@@ -1,5 +1,8 @@
 .navItem{
     color: white;
+}
+
+.responsive{
     display: block;
 }
 
@@ -9,7 +12,7 @@
 }
 
 @media only screen and (max-width: 740px){
-    .navItem{
+    .responsive{
         display: none;
     }
 }

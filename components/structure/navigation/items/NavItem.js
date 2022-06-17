@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const NavItem = (props) => {
     return <Link href={props.link}>
-        <a className={styles.navItem}>{props.children}</a>
+        <a className={`${styles.navItem} ${styles[`${props.display}`]}`}>{props.children}</a>
     </Link>
 }
 

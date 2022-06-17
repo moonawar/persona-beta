@@ -20,7 +20,6 @@ const ProjectsRow = () => {
   return (
     <motion.div
       className={styles.projectsRow}
-      whileTap={{ cursor: "grabbing" }}
       ref={projectsRow}
     >
       <motion.div
@@ -28,13 +27,14 @@ const ProjectsRow = () => {
         ref={projectsRowInner}
         drag={"x"}
         dragConstraints={{ right: 0, left: -length }}
+        whileTap={{ cursor: "grabbing" }}
       >
         <Project projectId={1} />
         <Project projectId={2} />
         <Project projectId={3} />
         <Project projectId={4} />
         <Project projectId={5} />
-        <motion.p whileHover={{cursor: "pointer"}}> See More </motion.p>
+        <motion.p whileHover={{cursor: "pointer"}} className={styles.seeMore}> See More </motion.p>
       </motion.div>
     </motion.div>
   );

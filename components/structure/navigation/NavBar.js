@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Backdrop from "../../general/UI/Backdrop";
 import Portal from "../../hooks/Portal";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 import Burger from "./items/Burger";
 import BurgerMenu from "./items/BurgerMenu";
 import HomeLogo from "./items/HomeLogo";

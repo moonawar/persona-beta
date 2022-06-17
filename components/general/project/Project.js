@@ -6,13 +6,18 @@ const Project = (props) => {
     <div className={styles["project-container"]}>
       <div className={styles.project}>
         <div className={styles["project-details"]}>
-          <h2 className={styles["project-title"]}></h2>
-          <p className={styles["project-desc"]}></p>
+          <h3 className={styles["project-title"]}>Project Title</h3>
+          <p className={styles["project-desc"]}>
+            description goes here, and probably tag idk. what about longer text.
+          </p>
         </div>
       </div>
-      <Link href={`/project/${props.projectId}`}>
-        <a className={styles.projectLink}>Learn More</a>
-      </Link>
+      <div className={styles["project-meta"]}>
+        {/* <p>Tags</p> */}
+        <Link href={`/project/${props.projectId}`}>
+          <a className={styles.projectLink}>Learn More</a>
+        </Link>
+      </div>
     </div>
   );
 };

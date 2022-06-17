@@ -1,6 +1,5 @@
 .projectsRow{
     overflow: hidden;
-    cursor: grab;
 }
 
 .projectsRowInner{
@@ -9,21 +8,17 @@
     align-items: center;
     gap: 25px;
     white-space: nowrap;
+    cursor: grab;
 }
 
-.projectsRowInner p{
-    margin: 0 0 0 -40px; padding: 0;
-
+.seeMore{
+    margin-left: -25px; padding: 0;
+    padding-bottom: 20px;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
-}
-
-.seeMore{
-    cursor: pointer;
-    width: 60px; height: 135px;
 }
 
 /* @media only screen and (max-width: 1366px){

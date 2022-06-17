@@ -1,16 +1,41 @@
 .project-container{
-    width: 280px; height: 210px;
+    width: 300px; height: 210px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 
 .project{
-    min-width: 280px; min-height: 180px;
+    min-width: 300px; min-height: 180px;
     background-color: #BA1B1D;
+    position: relative;
 }
 
-.projectLink{
+.project-title{
+    margin: 6px 15px; padding: 0;
+}
+
+.project-desc{
+    margin: 0 15px; padding: 0;
+    white-space: normal;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.project-details{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    width: 100%; height: 45%;
+    background-color: #080f0f44;
+}
+
+.project-meta{
+    display: flex;
     font-size: 12px;
     padding: 5px 0;
+    justify-content: flex-end;
+}
+
+.project-meta p{
+    padding: 0; margin: 0;
 }
